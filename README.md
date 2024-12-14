@@ -15,8 +15,7 @@ This project implements a **Finance Tracker** application using Python. It allow
 ## How Users Can Get Started with the Project?
 
 1. Prerequisites
-Ensure Python 3.x is installed, along with the following package:
-- **Pandas**: Install using the command:
+Install Python and the Pandas package using command:
   ```bash
   pip install pandas
 
