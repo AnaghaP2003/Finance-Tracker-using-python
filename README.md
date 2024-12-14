@@ -11,6 +11,8 @@ This project implements a **Finance Tracker** application using Python. It allow
   - **Encapsulation**: The budget, transactions, and operations are encapsulated within the `FinanceTracker` class, ensuring better organization and data security.
   - **Modularity**: Methods such as `add_transactions`, `get_transactions`, and `get_budget_balance` are self-contained, allowing for easier maintenance and updates.
   - **Reusability**: The class structure is reusable for different budget scenarios, making it versatile for personal and professional financial management.
+  - **Abstraction**: The internal complexities of transaction management and budget calculations are hidden within methods, providing a simple and user-friendly interface.
+
 
 ## How Users Can Get Started with the Project?
 
@@ -25,17 +27,17 @@ This project implements a **Finance Tracker** application using Python. It allow
    
 -Clone the repository and Run the script in a Python environment.
 
-4. Usage
+3. Usage
    
 -Add a transaction: For example, 
-obj.add_transactions("Jan 1st, 2025", "Metro", "Recharge", 500)
+obj.add_transactions("Jan 1st, 2025", "Metro", "Recharge", 500).
 
 -View transactions: For example, 
 obj.get_transactions()
-obj.get_transactions(category="Food")
+obj.get_transactions(category="Food").
 
 -Check budget balance: Add transactions and check your remaining budget after spending. For example, 
-obj.get_budget_balance()
+obj.get_budget_balance().
 
 
 
