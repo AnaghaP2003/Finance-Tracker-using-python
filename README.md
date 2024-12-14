@@ -14,8 +14,30 @@ This project implements a **Finance Tracker** application using Python. It allow
 
 ## How Users Can Get Started with the Project?
 
-### Prerequisites
+1. Prerequisites
 Ensure Python 3.x is installed, along with the following package:
 - **Pandas**: Install using the command:
   ```bash
   pip install pandas
+
+2. Running the Project
+Clone the repository and Run the script in a Python environment.
+
+3. Usage
+Add a transaction: For example, 
+obj.add_transactions("Jan 1st, 2025", "Metro", "Recharge", 500)
+
+View transactions: For example, 
+obj.get_transactions()
+obj.get_transactions(category="Food")
+
+Check budget balance: Add transactions and check your remaining budget after spending. For example, 
+obj.get_budget_balance()
+
+
+
+
+
+
+
+
