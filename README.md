@@ -23,12 +23,16 @@ This project implements a **Finance Tracker** application using Python. It allow
      ```bash
      pip install pandas
 
-3. Running the Project
+2. Running the Project
+   
    -Clone the repository and Run the script in a Python environment.
 
 3. Usage
+   
    -Add a transaction: For example, obj.add_transactions("Jan 1st, 2025", "Metro", "Recharge", 500).
-   -View transactions: For example, obj.get_transactions() and obj.get_transactions(category="Food").
+   
+   -View transactions: For example, obj.get_transactions() and obj.get_transactions(category="Food") for category-wise.
+   
    -Check budget balance: Add transactions and check your remaining budget after spending. For example, obj.get_budget_balance().
 
 
